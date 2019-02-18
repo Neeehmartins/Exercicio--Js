@@ -6,14 +6,12 @@
     let i = 0;
     let = tentativas = 10;
 
-    const aleatório = function(min,max){
-    min = 0;
-     max = 50;
+    let aleatorio = function(min,max){
    
    return Math.floor(Math.random() *(max -min +1)) + min;
 }
 
-    const valorAleatorio = aleatorio() 
+    const valorAleatorio = aleatorio(0,50) 
 
     while(numero != valorAleatorio && i < tentativas){
 
